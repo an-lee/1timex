@@ -1,17 +1,15 @@
-<div class="bg-color-sky-light" style="padding-top:50px;padding-bottom:50px;">
-  <div class="container">
-    <div class="content">
-    <div class="work">
-        <div class="work-overlay">
-            <img class="full-width img-responsive" src="http://okgqgpbx3.bkt.clouddn.com/blog/2017-02-17-time_crop.jpg" alt="time">
+<div class="hero-shot">
+  <div class="hero-shot-color-overlay">
+    <div class="container">
+      <div class="content-md">
+
+        <div style="text-align:center;padding-top:30px;">
+          <h1 style="color: #fff;text-align:center;">现在出发，追回过去虚度的二十年</h1>
+          <h4 style="color:#fff;text-align:center;">学习一项新技能，为你的人生开个挂</h4>
+          <%= link_to("马上挑选优质时间", products_path, :class => "btn btn-primary btn-lg btn-danger", :style => "font-size:18px;") %>
         </div>
-        <div class="work-content">
-            <h2 class="color-white margin-b-5">时间交易所</h2>
-            <p class="color-white margin-b-0">购买优质的知识服务相当于购买别人的时间，延长您的寿命。</p>
-        </div>
-        <a class="content-wrapper-link" href="#"></a>
     </div>
-  </div>
+    </div>
   </div>
 </div>
 
@@ -20,25 +18,50 @@
   <div class="section-seperator">
   <div class="content-md">
     <div class="row">
-      <div class="col-sm-4 sm-margin-b-50">
-          <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".3s">
-            <h3>购买一星期</h3>
-            <p>一个星期可以做什么？可以读一本好书。然而，好书太多，时间太少。为您精心制作的好书干货音频，让你在半小时内听完一本好书。</p>
-            <a class="link" href="#">Read More</a>
-          </div>
+      <div style="text-align:center;padding-bottom: 50px;">
+        <h2 style="color: #000;text-align:center;">知识服务领域最有参考价值的购物指南</h2>
+        <p style="font-size:16px;width:40%;margin-right:auto;margin-left:auto;">Time-Ex 所有上架的商品均由真实用户推荐、专人审核，接受真实用户的打分评价</p>
       </div>
       <div class="col-sm-4 sm-margin-b-50">
-          <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".2s">
-            <h3>购买三个月</h3>
-            <p>3个月可以做什么？足够学习一门改变您人生的新技能。可是上班太忙，时间太少。为您精心挑选的优质课程，让您在3个月内获得双倍学习效果。</p>
-            <a class="link" href="#">Read More</a>
+        <div class="bg-color-white margin-b-20">
+            <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+              <%= link_to products_path do %>
+                <img class="img-circle img-value" src="http://okgqgpbx3.bkt.clouddn.com/blog/2017-03-05-brag-about-customer-service-training.png" alt="Prouct Image">
+              <% end %>
+            </div>
+        </div>
+        <div style="width:80%;">
+          <h3 style="text-align:center;">用户推荐</h3>
+          <p>Time-Ex 每上架一件商品都必须先由3位以上真实用户推荐</p>
+
+        </div>
+      </div>
+      <div class="col-sm-4 sm-margin-b-50">
+        <div class="bg-color-white margin-b-20">
+            <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+              <%= link_to products_path do %>
+                <img class="img-circle img-value" src="http://okgqgpbx3.bkt.clouddn.com/blog/2017-03-05-retention-marketing-stats.png" alt="Prouct Image">
+              <% end %>
+            </div>
+        </div>
+          <div style="width:80%;">
+            <h3 style="text-align:center;">专人审核</h3>
+            <p>Time-Ex 上架商品前，由专人对其真实性进行审核把关</p>
+
           </div>
       </div>
       <div class="col-sm-4">
-        <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".1s">
-            <h3>购买七年</h3>
-            <p>人的一生，其实可以活很多遍，7年就是一辈子。只要敢于迈出第一步。这里有您需要的学习圈、优质战友和下一个辈子的起点。</p>
-            <a class="link" href="#">Read More</a>
+        <div class="bg-color-white margin-b-20">
+            <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+              <%= link_to products_path do %>
+                <img class="img-circle img-value" src="http://okgqgpbx3.bkt.clouddn.com/blog/2017-03-05-icon-app.png" alt="Prouct Image">
+              <% end %>
+            </div>
+        </div>
+        <div style="width:80%;">
+            <h3 style="text-align:center;">真实评价</h3>
+            <p>Time-Ex 的每一件商品均接受和保留真实用户的每一条评价</p>
+
         </div>
       </div>
     </div>
@@ -48,22 +71,56 @@
 <!-- End Features -->
 </div>
 
-<!-- Team -->
+<!-- comments -->
 <div class="bg-color-sky-light">
+  <div class="container">
+    <div class="content-md">
+      <div style="padding-bottom:30px;text-align:center;">
+        <h2 style="color: #000;">大家怎么说</h2>
+      </div>
+      <div class="row">
+        <div class="col-sm-4 sm-margin-b-50" style="text-align:center;">
+          <p style="width:70%;height:120px;　margin-left:auto;margin-right:auto;text-align:left;font-size:18px;">“网上的知识服务繁杂众多，看花了眼，Time-Ex 则是汇聚了精品。”</p>
+
+          <img src="http://okgqgpbx3.bkt.clouddn.com/blog/2017-02-21-touxiang-2017.jpeg" alt="user1" class="img-circle user">
+
+          <h4 style="font-size:18px;">李安 <span>@an-lee</span></h4>
+          </div>
+
+        <div class="col-sm-4 sm-margin-b-50" style="text-align:center;">
+          <p style="width:70%;height:120px;　margin-left:auto;margin-right:auto;text-align:left;font-size:18px;">“Time-Ex 上架的商品都有质量保证，因为有着真实用户的评价可以参考。我自己也经常在上面写评论。”</p>
+          <img src="http://okgqgpbx3.bkt.clouddn.com/blog/2017-02-21-hanyanbo.jpg" alt="user1" class="img-circle user" style="text-align:center;">
+          <h4 style="font-size:18px;">韩艳波 <span>@meiputi</span></h4>
+          </div>
+
+          <div class="col-sm-4 sm-margin-b-50" style="text-align:center;">
+            <p style="width:70%;height:120px;　margin-left:auto;margin-right:auto;text-align:left;font-size:18px;">“人通过学习可以改变人生，如果找到好的师傅，可以让学习加速，改变很多次人生。我来Time-Ex找这样的师傅。”</p>
+            <img src="http://okgqgpbx3.bkt.clouddn.com/blog/2017-03-05-WechatIMG2.jpeg" alt="user1" class="img-circle user" style="text-align:center;">
+            <h4 style="font-size:18px;">杨名流<span>@moliao2012</span></h4>
+            </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- end comments -->
+
+<!-- classic product -->
 
 <div class="container">
   <div class="section-seperator">
       <div class="content-md">
-          <div class="row margin-b-40">
-              <div class="col-sm-4">
-                  <h2>优质时间推荐</h2>
-                  <p>知识太多，时间太少。我们为您精选了新时代里最优质的知识，将别人的时间转化为您的生命。</p>
-              </div>
-          </div>
+        <div style="padding-bottom:30px;text-align:center;">
+          <h2 style="color: #000;">优质时间推荐</h2>
+          <p style="font-size:16px;width:40%;margin-right:auto;margin-left:auto;">知识太多，时间太少。我们为您精选了新时代里最优质的知识，将别人的时间转化为您的生命。</p>
+        </div>
+
           <!--// end row -->
 
           <div class="row">
-              <!-- Team -->
+              <!-- product -->
               <div class="col-sm-4 sm-margin-b-50">
                   <div class="bg-color-white margin-b-20">
                       <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
@@ -76,9 +133,9 @@
                   <p>这里集聚着一批以持续、自主、升级自我为乐的人。我们尊重知识，追求进步。我们相信通过学习获得重生。对我们来说，七年就是一辈子。</p>
                   <%= link_to "Read More", products_path, class:"link" %>
               </div>
-              <!-- End Team -->
+              <!-- End product -->
 
-              <!-- Team -->
+              <!-- product -->
               <div class="col-sm-4 sm-margin-b-50">
                   <div class="bg-color-white margin-b-20">
                       <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
@@ -91,9 +148,9 @@
                   <p>林明樟老師將完全顛覆您過去對財務報表枯燥無趣的刻板印象，透過生活常識與遊戲化引導與活潑有趣的真實案例解析！」</p>
                   <%= link_to "Read More", products_path, class:"link" %>
               </div>
-              <!-- End Team -->
+              <!-- End product -->
 
-              <!-- Team -->
+              <!-- product -->
               <div class="col-sm-4 sm-margin-b-50">
                   <div class="bg-color-white margin-b-20">
                       <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
@@ -106,7 +163,7 @@
                   <p>由两岸知名的 Rails 教练郑伊廷、天使投资人李笑来共同主持。我们以认知心理学为基石，旨在为未来培养出一批能够快速贯通编程理念并灵活实践的全栈工程师。</p>
                   <%= link_to "Read More", products_path, class:"link" %>
               </div>
-              <!-- End Team -->
+              <!-- End product -->
 
 
           </div>
@@ -115,5 +172,18 @@
   </div>
 </div>
 
+<!-- End product -->
+
+<!-- call to action -->
+<div class="action-bar">
+  <div class="action-bar-overlay">
+    <div style="text-align:center;padding-top:50px;">
+
+      <h3 style="color:#fff;text-align:center;">学习一项新技能，为你的人生开个挂</h3>
+      <%= link_to("马上挑选优质时间", products_path, :class => "btn btn-primary btn-md btn-danger", :style => "font-size:16px;") %>
+    </div>
+  </div>
+  </div>
 </div>
-<!-- End Team -->
+
+<!-- end call to action -->

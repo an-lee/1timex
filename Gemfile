@@ -44,7 +44,7 @@ gem 'owlcarousel-rails'
 gem 'will_paginate'
 gem 'redcarpet'
 gem 'ratyrate'
-gem 'jquery-turbolinks'
+# gem 'jquery-turbolinks'
 # gem 'carrierwave-qiniu'
 # gem 'qiniu-rs'
 
